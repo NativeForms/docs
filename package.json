@@ -13,7 +13,7 @@
   "scripts": {
     "publish": "node_modules/.bin/gitbook build && node_modules/.bin/gulp publish",
     "dev": "node_modules/.bin/gitbook serve",
-    "test": "echo \"No test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
