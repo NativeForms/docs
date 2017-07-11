@@ -11,7 +11,7 @@
     "gulp-load-plugins": "^1.5.0"
   },
   "scripts": {
-    "publish": "node_modules/.bin/gitbook build && node_modules/.bin/gulp publish",
+    "deploy": "node_modules/.bin/gitbook build && node_modules/.bin/gulp publish",
     "dev": "node_modules/.bin/gitbook serve",
     "test": "echo \"No test specified\" && exit 0"
   },
