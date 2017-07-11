@@ -4,7 +4,6 @@
   "description": "NativeForms documentation",
   "main": "README.md",
   "devDependencies": {
-    "gitbook-cli": "^2.3.0",
     "gitbook-plugin-toolbar": "^0.5.5",
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
