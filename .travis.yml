@@ -6,7 +6,7 @@ cache:
     - node_modules
 
 install:
-  - npm install -g extend
+  - npm install -g gitbook
   - npm install -g gitbook-cli
   - npm install
 
