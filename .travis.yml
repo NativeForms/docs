@@ -1,0 +1,9 @@
+deploy:
+  provider: script
+  script: npm run publish
+  on:
+    branch: master
+
+branches:
+  except:
+    - /.+-experimental/
