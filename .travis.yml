@@ -5,6 +5,10 @@ cache:
   directories:
     - node_modules
 
+install:
+  - npm install -g gulp
+  - npm install
+
 deploy:
   provider: script
   script: npm run deploy
