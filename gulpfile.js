@@ -1,7 +1,12 @@
-const gulp = require('gulp');  
-const gulpLoadPlugins = require('gulp-load-plugins');
+var gulp = require('gulp');  
+var gulpLoadPlugins = require('gulp-load-plugins');
 
-const $ = gulpLoadPlugins();
+var $ = gulpLoadPlugins();
+
+// Build the docs
+gulp.task('build', function (cb) {
+  $.gitbook('.', cb);
+});
 
 // Publishes the site to GitHub Pages
 gulp.task('publish', () => {  

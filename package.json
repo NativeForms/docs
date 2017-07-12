@@ -4,13 +4,17 @@
   "description": "NativeForms documentation",
   "main": "README.md",
   "devDependencies": {
+    "gitbook": "^3.2.2",
+    "gitbook-cli": "^2.3.1",
     "gitbook-plugin-toolbar": "^0.5.5",
     "gulp": "^3.9.1",
     "gulp-gh-pages": "^0.5.4",
+    "gulp-gitbook": "0.0.1",
     "gulp-load-plugins": "^1.5.0"
   },
   "scripts": {
-    "deploy": "gitbook build && gulp publish",
+    "build": "gulp build",
+    "deploy": "npm run build && gulp publish",
     "dev": "gitbook serve",
     "test": "echo \"No test specified\" && exit 0"
   },

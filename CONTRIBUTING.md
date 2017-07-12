@@ -5,7 +5,6 @@
 1. Get and install the NPM with [NodeJS](https://nodejs.org/)
 2. Clone repository and ```cd``` into it.
 3. Install packages: ```npm install```
-4. Install gitbook cli: ```npm install -g gitbook-cli```
 
 ## Serve Locally
 
