@@ -7,7 +7,7 @@ cache:
     - node_modules
 
 after_success:
-  - git config user.name "Travis CI"
+  - git config --global user.name "Travis CI"
   - gulp build
   - gulp publish
 
