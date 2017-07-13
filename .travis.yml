@@ -8,6 +8,7 @@ cache:
 
 after_success:
   - git config --global user.name "Travis CI"
+  - git config --global user.email "travis@travis-ci.org"
   - gulp build
   - gulp publish
 
