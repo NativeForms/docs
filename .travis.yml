@@ -1,16 +1,13 @@
 language: node_js
 node_js:
   - "6"
+
 cache:
   directories:
     - node_modules
 
-deploy:
-  provider: script
-  script: gulp deploy
-  on:
-    branch: master
+after_success:
+  - gulp deploy
 
 branches:
-  except:
-    - /.+-experimental/
+  only: master
