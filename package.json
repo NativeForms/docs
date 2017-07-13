@@ -13,8 +13,6 @@
     "gulp-load-plugins": "^1.5.0"
   },
   "scripts": {
-    "build": "./node_modules/.bin/gulp build",
-    "deploy": "npm run build && ./node_modules/.bin/gulp publish",
     "dev": "gitbook serve",
     "test": "echo \"No test specified\" && exit 0"
   },
